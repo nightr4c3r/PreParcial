@@ -1,4 +1,4 @@
-package com.nightr4c3r.preparcial;
+package com.nightr4c3r.preparcial.Models;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -10,9 +10,9 @@ import java.io.IOException;
 public class Main extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("hello-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
-        stage.setTitle("Hello!");
+        FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("/com/nightr4c3r/preparcial/dashboard.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 1000, 650);
+        stage.setTitle("PreParcial - Dashboard");
         stage.setScene(scene);
         stage.show();
     }
