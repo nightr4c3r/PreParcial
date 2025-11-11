@@ -14,7 +14,6 @@ public class DashboardController {
 
     @FXML
     private void initialize() {
-        // Load Clients view by default
         onShowClients();
     }
 

@@ -13,14 +13,14 @@ import java.time.LocalDateTime;
 
 public class SalesController {
 
-    // Sales form controls
+
     @FXML private ComboBox<Client> cmbSaleClient;
     @FXML private ComboBox<Product> cmbSaleProduct;
     @FXML private TextField txtSaleQuantity;
     @FXML private Label lblSaleUnitPrice;
     @FXML private Label lblSaleTotal;
 
-    // Sales table controls
+
     @FXML private TableView<Sale> tblSales;
     @FXML private TableColumn<Sale, String> colSaleClient;
     @FXML private TableColumn<Sale, String> colSaleProduct;

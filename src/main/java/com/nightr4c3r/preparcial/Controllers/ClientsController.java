@@ -9,13 +9,13 @@ import javafx.collections.ObservableList;
 
 public class ClientsController {
 
-    // Clients form controls
+
     @FXML private TextField txtClientDocument;
     @FXML private TextField txtClientName;
     @FXML private TextField txtClientTelephone;
     @FXML private TextField txtClientEmail;
 
-    // Clients table controls
+
     @FXML private TableView<Client> tblClients;
     @FXML private TableColumn<Client, String> colClientDocument;
     @FXML private TableColumn<Client, String> colClientName;
